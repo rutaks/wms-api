@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wms_test
+    username: postgres
+    password: 123
+  jpa:
+    hibernate.ddl-auto: create
+    show-sql: true
+    properties.hibernate.format_sql: true
+  sendgrid:
+    api-key: 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
+jwt:
+  secret: secret
+
+springdoc:
+  api-docs:
+    path: /api-docs
